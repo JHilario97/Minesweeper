@@ -25,7 +25,7 @@ cMain::cMain() : wxFrame(nullptr, wxID_ANY, "OneLoneCoder.com - wxWidgets!")
 
 		}
 	}
-	this->SetSizer(grid);
+	this->SetSizer(grid)
 	grid->Layout();
 }
 
